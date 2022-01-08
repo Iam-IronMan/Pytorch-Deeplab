@@ -46,13 +46,17 @@ a = torch.tensor([1,2])
 b = torch.tensor([3,4])
 c = torch.einsum("x,x -> x",a, b)
 print(c)
-"""
+
 a = [1,2,3,4,5,6]
 print(a[-1])
 import torch
 b = torch.tensor([1,2])
 print(b)
+"""
 
-
-
-
+import time
+tic = time.time()
+time.sleep(5)#(此行可以换成需要计时的模块)
+toc = time.time()
+shijian = toc-tic
+print(shijian)
