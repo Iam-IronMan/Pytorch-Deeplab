@@ -49,6 +49,9 @@ print(c)
 """
 a = [1,2,3,4,5,6]
 print(a[-1])
+import torch
+b = torch.tensor([1,2])
+print(b)
 
 
 
